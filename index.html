@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Captcha customizado</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+	<!-- Fonte -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<header>Captcha JavaScript</header>
+		<div class="captcha-area">
+			<div class="captcha-img">
+				<img src="captcha-bg.png">
+				<span class="captacha"></span>
+			</div>
+			<button class="reload-btn"><i class="fas fa-redo-alt"></i></button>
+		</div>
+			<form action="#" class="input-area">
+				<input type="text" placeholder="Digite os valores" maxlength="6" required>
+				<button class="check-btn">Checar</button>
+			</form>
+			<div class="status-txt"></div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

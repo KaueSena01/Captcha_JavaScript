@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #4db2ec;
+}
+.wrapper{
+	width: 485px;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 22px 10px 0 10px
+}
+.wrapper header{
+	color: #4db2ec;
+	font-size: 33px;
+	font-weight: 500;
+	text-align: center;
+}
+.wrapper .captcha-area{
+	display: flex;
+	height: 65px;
+	margin: 30px 20px 0 20px;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 5px;
+}
+.captcha-area .captcha-img{
+	height: 100%;
+	width: 345px;
+	user-select: none;
+	position: relative;
+	border-radius: 5px;
+}
+.captcha-img img{
+	width: 100%;
+	height: 100%;
+	opacity: 0.95;
+	object-fit: cover;
+	border-radius: 5px;
+}
+.captcha-img .captacha{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100%;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 10px;
+	transform: translate(-50%, -50%);
+	text-shadow: 0 0 2px #a9a9a9;
+	font-family: 'Noto Serif', serif;
+}
+.wrapper button{
+	border: none;
+	outline: none;
+	color:  #fff;
+	cursor: pointer;
+	background-color: #4db2ec;
+	border-radius: 5px;
+}
+.captcha-area .reload-btn{
+	width: 75px;
+	height: 100%;
+	font-size: 25px;
+}
+.captcha-area .reload-btn i{
+	transition: transform 0.3 ease;
+}
+.captcha-area .reload-btn:hover i{
+	transform: rotate(15deg);
+}
+.wrapper .input-area{
+	height: 60px;
+	width: 100%;
+}
+.input-area input{
+	height: 100%;
+	width: 92%;
+	margin: 15px 4%;
+	font-size: 20px;
+	padding-left: 20px;
+	border-radius: 5px;
+	border: 1px solid #bfbfbf;
+}
+.input-area input:focus{
+	padding-left: 19px;
+	border: 2px solid #4db2ec;
+}
+.input-area .check-btn{
+	transform: translateY(-67px);
+	float: right;
+	margin-right: 5.8%;
+	font-size: 17px;
+	height: 45px;
+	padding: 0 20px;
+	opacity: 0;
+	pointer-events: none;
+}
+.input-area input:valid + .check-btn{
+	opacity: 1;
+	pointer-events: auto;
+}
+.wrapper .status-txt{
+	display: none;
+	margin: 40px 20px;
+	text-align: center;
+	border-bottom: 2px solid #4db2ec;
+	padding-bottom: 20px;
+}
