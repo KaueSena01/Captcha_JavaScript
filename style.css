@@ -11,11 +11,11 @@ body{
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
-	background-color: #4db2ec;
+	background-color: #000;
 }
 .wrapper{
 	width: 485px;
-	background-color: #fff;
+	background-color: ##0d0d0d;
 	border-radius: 10px;
 	padding: 22px 10px 0 10px
 }
