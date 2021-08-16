@@ -1,6 +1,5 @@
-<h2 style="text-aling="center">JavaScript Captcha</h2>
-###
+<h2>JavaScript Captcha</h2>
 
 <div>
-  <p>Hello</p>
+  <p></p>
 </div>
